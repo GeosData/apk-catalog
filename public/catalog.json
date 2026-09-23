@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": "mural",
+      "name": "Mural",
+      "summary": "Practica idiomas conversando con voz. Usa tu propia API key de OpenAI.",
+      "origin": "third",
+      "author": "Chuloo",
+      "license": "MIT",
+      "source": "https://github.com/Chuloo/mural",
+      "releases": [
+        {
+          "version": "2026.09.23",
+          "variant": "debug",
+          "commit": "631164d",
+          "date": "2026-09-23",
+          "size_mb": 61,
+          "sha256": "5f0a6c494c8559819d6bc10ebf6ff281f07ebbe9c2ce9a02613f641fb053bb76",
+          "url": "https://github.com/GeosData/apk-catalog/releases/download/mural-2026.09.23/mural-2026.09.23-debug.apk"
+        }
+      ]
+    }
+  ]
+}
