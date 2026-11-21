@@ -1,6 +1,9 @@
 PAGES_PROJECT := apk-catalog
 
-.PHONY: deploy
+.PHONY: deploy verify
 
-deploy:
+verify:
+	python scripts/verify_catalog.py
+
+deploy: verify
 	npx wrangler pages deploy public --project-name $(PAGES_PROJECT) --branch main
